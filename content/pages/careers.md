@@ -9,7 +9,7 @@ sections:
         url: 'https://assets.stackbit.com/components/images/default/image-1.jpeg'
         altText: Media gallery image
         caption: Image caption
-    spacing: 1
+    spacing: 13
     columns: 1
     aspectRatio: '16:9'
     imageSizePx: 300
