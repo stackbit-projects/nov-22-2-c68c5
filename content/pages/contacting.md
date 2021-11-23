@@ -188,7 +188,7 @@ sections:
           label: Name
           name: name
           placeholder: Your name
-          isRequired: false
+          isRequired: true
           width: 1/2
         - type: EmailFormControl
           label: Email
