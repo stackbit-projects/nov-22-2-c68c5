@@ -498,6 +498,15 @@ sections:
           placeholder: Your email
           isRequired: true
           width: 1/2
+        - name: city
+          label: City
+          defaultValue: Please choose...
+          options:
+            - New York
+            - San Francisco
+          isRequired: false
+          width: full
+          type: SelectFormControl
         - type: TextFormControl
           label: Home Address
           name: home-address
