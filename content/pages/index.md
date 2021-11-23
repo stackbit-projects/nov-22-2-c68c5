@@ -410,6 +410,7 @@ sections:
     colors: colors-a
     posts:
       - content/pages/blog/post-four.md
+      - content/pages/blog/postlayout-wccu7rtq6.md
       - content/pages/blog/post-three.md
     styles:
       self:
