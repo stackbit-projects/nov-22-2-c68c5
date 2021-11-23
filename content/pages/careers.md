@@ -14,7 +14,7 @@ sections:
     aspectRatio: '4:3'
     imageSizePx: 300
     showCaption: true
-    enableHover: true
+    enableHover: false
     styles:
       self:
         width: full
