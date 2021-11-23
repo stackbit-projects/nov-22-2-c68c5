@@ -402,6 +402,15 @@ sections:
           name: updates
           label: Sign me up to receive updates
           width: full
+        - name: city
+          label: City
+          defaultValue: Please choose...
+          options:
+            - New York
+            - San Francisco
+          isRequired: false
+          width: full
+          type: SelectFormControl
       submitLabel: Send Message
       styles:
         submitLabel:
