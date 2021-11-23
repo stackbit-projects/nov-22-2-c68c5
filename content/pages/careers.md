@@ -465,10 +465,6 @@ sections:
         label: Learn More
         url: /
         style: secondary
-    feature:
-      type: ImageBlock
-      url: 'https://assets.stackbit.com/components/images/default/hero.png'
-      altText: Hero section image
     styles:
       self:
         height: auto
