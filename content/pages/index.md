@@ -519,7 +519,7 @@ sections:
       fields:
         - name: email
           placeholder: Your email
-          isRequired: false
+          isRequired: true
           width: full
           type: EmailFormControl
       submitLabel: Sign Up
