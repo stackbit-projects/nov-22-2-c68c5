@@ -18,6 +18,12 @@ sections:
           placeholder: Your name
           width: 1/2
           name: Name
+        - name: lorem-ipsum
+          label: Name
+          placeholder: Your name
+          isRequired: false
+          width: full
+          type: EmailFormControl
         - type: TextFormControl
           label: Last name
           placeholder: Your last name
