@@ -10,7 +10,7 @@ sections:
         altText: Media gallery image
         caption: Image caption
     spacing: 1
-    columns: 4
+    columns: 1
     aspectRatio: '16:9'
     imageSizePx: 300
     showCaption: true
