@@ -290,4 +290,57 @@ sections:
       text:
         textAlign: left
     type: ContactSection
+  - elementId: ''
+    colors: colors-a
+    title: Testimonials
+    subtitle: What our customers say about us
+    testimonials:
+      - quote: >-
+          It’s great to see someone taking action while still maintaining a
+          sustainable fish supply to home cooks.
+        name: Isabelle Parks
+        title: Head chef at The Cook
+        image:
+          type: ImageBlock
+          url: >-
+            https://assets.stackbit.com/components/images/default/default-person.png
+          altText: Person photo
+        styles:
+          self:
+            margin:
+              - mt-0
+              - mb-0
+            flexDirection: col
+          quote:
+            textAlign: center
+          name:
+            fontWeight: 400
+            fontStyle: normal
+            textAlign: center
+          title:
+            fontWeight: 400
+            fontStyle: normal
+            textAlign: center
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        fontWeight: 400
+        fontStyle: normal
+        textAlign: center
+    type: TestimonialsSection
 ---
