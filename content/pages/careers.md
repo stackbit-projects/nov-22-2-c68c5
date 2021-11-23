@@ -19,10 +19,6 @@ sections:
         url: 'https://assets.stackbit.com/components/images/default/image-3.jpeg'
         altText: Media gallery image
         caption: Image caption
-      - type: ImageBlock
-        url: 'https://assets.stackbit.com/components/images/default/image-4.jpeg'
-        altText: Media gallery image
-        caption: Image caption
     spacing: 1
     columns: 4
     aspectRatio: '16:9'
