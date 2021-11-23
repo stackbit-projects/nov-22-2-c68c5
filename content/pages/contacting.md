@@ -182,6 +182,38 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    feature:
+      fields:
+        - type: TextFormControl
+          label: Name
+          name: name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          label: Email
+          name: email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          label: Home Address
+          name: home-address
+          placeholder: Your home address
+          isRequired: false
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+      elementId: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      styles:
+        title:
+          textAlign: left
+      type: FormBlock
   - colors: colors-c
     elementId: ''
     title: Featured Items
