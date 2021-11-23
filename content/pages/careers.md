@@ -11,7 +11,7 @@ sections:
         caption: Image caption
     spacing: 0
     columns: 1
-    aspectRatio: '1:1'
+    aspectRatio: auto
     imageSizePx: 300
     showCaption: true
     enableHover: true
