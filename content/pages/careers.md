@@ -459,6 +459,12 @@ sections:
           placeholder: Your email
           isRequired: true
           width: 1/2
+        - name: description
+          label: Description
+          placeholder: Please describe
+          isRequired: false
+          width: full
+          type: TextareaFormControl
         - type: TextFormControl
           name: home-address
           label: Home address
