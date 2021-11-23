@@ -408,7 +408,7 @@ sections:
           options:
             - New York
             - San Francisco
-          isRequired: false
+          isRequired: true
           width: full
           type: SelectFormControl
       submitLabel: Send Message
